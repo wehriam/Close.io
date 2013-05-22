@@ -1,9 +1,10 @@
 var Closeio = require('../lib/close.io.js');
+var config = require('../config.json');
 
 describe('Close.io API', function() {
   it('should do some stuff.', function(done) {
     this.timeout(10000);
-    var closeio = new Closeio("c8f88a4e2ab104e8f766070e435f818b4a2bc07ca7882002e2e17ce2");
+    var closeio = new Closeio(config.api_key);
     closeio.lead.create({name: "John Wehr"}).then(function(data){
       return closeio.lead.read(data.id);
     }).then(function(data){
