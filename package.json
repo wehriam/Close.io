@@ -1,0 +1,31 @@
+{
+  "name": "close.io",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "author": "John Wehr <johnwehr@gmail.com>",
+  "description": "",
+  "contributors": [ 
+    {
+      "name": "John Wehr",
+      "email": "johnwehr@gmail.com"
+    } 
+  ],
+  "main": "./lib/close.io.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wehriam/Close.io.git"
+  },
+  "keywords": [],
+  "dependencies" : {
+    "deferred": "0.6.4",
+    "request": "2.21.0"
+  },
+  "noAnalyze": true,
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
