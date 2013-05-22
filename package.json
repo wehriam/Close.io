@@ -17,7 +17,7 @@
   },
   "keywords": [],
   "dependencies" : {
-    "deferred": "0.6.4",
+    "node-promise": "*",
     "request": "2.21.0"
   },
   "noAnalyze": true,

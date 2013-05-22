@@ -9,7 +9,7 @@ A Close.io API wrapper for Node.js. See the API documentation at http://develope
 
 **Usage**
 
-The module uses [medikoo/deferred](https://github.com/medikoo/deferred) promises.
+The module uses [kriszyp/node-promise](https://github.com/kriszyp/node-promise) promises.
 
 Get an API key from your settings page: https://app.close.io/settings/
 
