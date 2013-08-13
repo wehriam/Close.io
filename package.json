@@ -1,6 +1,6 @@
 {
   "name": "close.io",
-  "preferGlobal": "true",
+  "preferGlobal": "false",
   "version": "0.0.3",
   "author": "John Wehr <johnwehr@gmail.com>",
   "description": "",
